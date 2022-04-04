@@ -1,0 +1,25 @@
+body{
+    background-color: #18FF6D;
+    font-size: 18px;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+}
+.joshua{
+    background-color: #28587B;
+    width: 70%;
+    margin: 0 auto;
+}
+h1.title{
+    text-transform: uppercase;
+    color: #62B6CB;
+    text-align: left;
+    font-weight: 700;
+    font-size: 40px;
+    padding: 25px;
+}
+h1.title:hover{
+    text-decoration: overline;
+    color: azure;
+    font-weight: 800;
+    transition: 5s ease-in-out;
+}
