@@ -15,11 +15,37 @@ h1.title{
     text-align: left;
     font-weight: 700;
     font-size: 40px;
-    padding: 25px;
+    padding: 15px;
 }
 h1.title:hover{
     text-decoration: overline;
     color: azure;
     font-weight: 800;
-    transition: 5s ease-in-out;
+    transition: .5s ease-in-out;
+}
+/* Navigation bar styles */
+.navbar{
+    background-color: bisque;
+    overflow: hidden;
+}
+.navbar ul li{
+    list-style-type: none;
+    float: left;
+    text-transform: uppercase;
+    padding: 10px;
+    border-right: 2px solid blue;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: blueviolet;
+}
+.navbar ul li:hover{
+    background-color: black;
+}
+.navbar ul li:hover a{
+    text-decoration: underline;
+    color: #18FF6D;
+    text-align: center;
+    margin-left: 4px;
+    transition: .7s ease-in-out;
 }
