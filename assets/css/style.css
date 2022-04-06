@@ -49,3 +49,83 @@ h1.title:hover{
     margin-left: 4px;
     transition: .7s ease-in-out;
 }
+/* slider section styling*/
+.slider{
+    background-image: url('../images/2');
+    min-height: 90vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.slider h2{
+    color: yellowgreen;
+    background-color: black;
+    border: 2px solid aqua;
+    padding: 7px 5px;
+    border-radius: 25%;
+    cursor: all-scroll;
+    opacity: 0.4;
+}
+.slider button{
+    background-color: #28587B;
+    color: yellow;
+    border: 3px solid saddlebrown;
+    padding: 12px 42px;
+    border-radius: 10%;
+    cursor: grab;
+}
+.slider button:hover{
+    background-color: black;
+    color: blueviolet;
+    transition: .7s ease-in-out;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+}
+.row-2{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.col{
+    max-width: 50%;
+}
+.img-fluid{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.px-3{
+    padding-left: 32px;
+    padding-right: 32px;
+}
+.py-4{
+    padding-top: 32px;
+    padding-bottom: 40px;
+}
+.text-start{
+    text-align: left !important; 
+}
+.text-center{
+    text-align: center!important;
+}
+.text-end{
+    text-align: right!important;
+}
+.credit{
+    background: rgb(250,83,0);
+background: linear-gradient(90deg, rgba(250,83,0,1) 0%, rgba(0,212,255,1) 100%);
+}
+.credit p{
+    color: #ffffff;
+    font-size: 24px;
+}
+
+.credit:hover{
+    transform: rotate(1deg);
+    transition-duration: .3s;
+}
